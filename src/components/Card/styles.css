@@ -32,7 +32,7 @@
     margin-top: 16px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 992px) {
     .titleh2 {
         width: 240px;
     }
@@ -40,7 +40,7 @@
         width: 240px;
     }
     .card {
-        margin: 0 0 16px;
+        margin: 0 16px 16px 0;
         max-width: 272px;
         max-height: 510px;
     }

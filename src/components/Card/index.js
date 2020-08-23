@@ -3,7 +3,7 @@ import React from 'react';
 import "./styles.css"
 
 function Card ({ data }) {
-    const isMobile = !!(window.innerWidth < 767);
+    const isMobile = !!(window.innerWidth < 992);
     return <div className={`card ${isMobile ? 'marginTop-16' : ''}`}>
         <div className="imageContainer">
             <img className="patch" alt="patch" src={data.links.mission_patch_small || "https://images2.imgbox.com/f9/3a/3kH19hlj_o.png"} />
