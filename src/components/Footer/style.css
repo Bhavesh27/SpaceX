@@ -1,0 +1,10 @@
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+}
+
+.footer {
+    font-size: 18px;
+}

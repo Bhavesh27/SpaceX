@@ -1,0 +1,47 @@
+.card {
+    background-color: #fff;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.imageContainer {
+    background-color: #f8f8f8;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.value {
+    font-size: 18px;
+    color: #9400d3;
+}
+
+.patch {
+    height: 240px;
+    width: 100%;
+}
+
+.titleh2 {
+    overflow-wrap: break-word;
+}
+
+.marginTop-16 {
+    margin-top: 16px;
+}
+
+@media (min-width: 767px) {
+    .titleh2 {
+        width: 240px;
+    }
+    .patch {
+        width: 240px;
+    }
+    .card {
+        margin: 0 0 16px;
+        max-width: 272px;
+        max-height: 510px;
+    }
+}
