@@ -8,6 +8,8 @@
     border-radius: 8px;
     min-width: 44px;
     cursor: pointer;
+    width: 24%;
+    text-align: center;
 }
 
 .chip:hover, .active {
@@ -30,4 +32,10 @@
     margin: 16px 48px 8px 32px;
     text-align: center;
     font-size: 18px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .chip {
+        width: 22%;
+    }
 }

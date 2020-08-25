@@ -3,9 +3,9 @@ import React from 'react';
 import "./styles.css"
 
 function Card ({ data }) {
-    const isMobile = !!(window.innerWidth < 992);
+    const isMobile = !!(window.innerWidth < 767);
     return <div className={`card ${isMobile ? 'marginTop-16' : ''}`}>
-        <div className="imageContainer">
+        <div className="imageContainer patch">
             <img className="patch" alt="patch" src={data.links.mission_patch_small || "https://images2.imgbox.com/f9/3a/3kH19hlj_o.png"} />
         </div>
         <div>
@@ -25,7 +25,7 @@ function Card ({ data }) {
                 <h3>Successful Launch:</h3>&nbsp;<p className="value">{`${data.launch_success}`}</p>
             </div>
             <div className="flex marginTop-16">
-                <h3>Launch Site:</h3>&nbsp;<p className="value">{data.launch_site.site_name}</p>
+                <h3>Successful Landing:</h3>&nbsp;<p className="value">N.A.</p>
             </div>
         </div>
     </div>

@@ -59,9 +59,9 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
   .filterContainer {
-    flex-basis: 20%;
+    flex-basis: 30%;
     height: max-content;
     margin-right: 16px;
   }
