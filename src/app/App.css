@@ -45,21 +45,21 @@
 
 @media (min-width: 1024px) {
   .filterContainer {
-    flex-basis: 16%;
+    flex-basis: 25%;
     height: max-content;
     margin-right: 16px;
   }
   .cardContainer {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 90%;
+    flex-basis: 80%;
   }
   .body {
     display: flex;
   }
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   .filterContainer {
     flex-basis: 30%;
     height: max-content;
@@ -74,4 +74,3 @@
     display: flex;
   }
 }
-
